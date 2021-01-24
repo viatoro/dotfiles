@@ -1,1 +1,1 @@
-export EDITOR='code'
+export EDITOR='open -a "Visual Studio Code" --wait'

@@ -10,3 +10,6 @@ brew install awsume
 brew install zoom
 brew install slack
 brew install --cask microsoft-teams
+brew install --cask tunnelblick
+brew install awscli
+brew install jq
