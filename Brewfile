@@ -12,6 +12,7 @@ brew "mas"
 brew "coreutils"
 brew "awscli"
 brew "kubectl"
+brew "jenv"
 
 cask "steam"
 cask "zoom"
@@ -28,6 +29,10 @@ cask "robo-3t"
 cask "adoptopenjdk11"
 cask "docker"
 cask "visual-studio-code"
+cask "android-studio"
+cask "android-sdk"
+cask "adoptopenjdk8"
 
-mas "‎Slack", id: 803453959
+
+mas "Slack", id: 803453959
 mas "LINE", id: 539883307
