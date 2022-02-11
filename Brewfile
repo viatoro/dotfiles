@@ -32,6 +32,7 @@ cask "visual-studio-code"
 cask "android-studio"
 cask "android-sdk"
 cask "adoptopenjdk8"
+cask "intel-haxm"
 
 
 mas "Slack", id: 803453959
