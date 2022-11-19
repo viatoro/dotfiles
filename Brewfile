@@ -1,5 +1,6 @@
 tap "homebrew/cask"
-tap "adoptopenjdk/openjdk"
+tap "graalvm/tap"
+tap "homebrew/cask-versions"
 
 brew "rbenv"
 brew "swiftlint"
@@ -26,14 +27,15 @@ cask "intellij-idea"
 cask "sourcetree"
 cask "postman"
 cask "robo-3t"
-cask "adoptopenjdk11"
-cask "docker"
 cask "visual-studio-code"
 cask "android-studio"
 cask "android-sdk"
-cask "adoptopenjdk8"
+cask "temurin8"
+cask "temurin11"
+cask "temurin17"
 cask "intel-haxm"
-
+cask "graalvm-ce-lts-java11"
+cask "graalvm-ce-lts-java8"
 
 mas "Slack", id: 803453959
 mas "LINE", id: 539883307
