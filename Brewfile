@@ -16,6 +16,7 @@ brew "kubectl"
 brew "jenv"
 brew "nvm"
 brew "pipx"
+brew "kubernetes-cli"
 
 cask "steam"
 cask "zoom"
