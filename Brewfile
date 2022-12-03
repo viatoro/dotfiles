@@ -17,6 +17,8 @@ brew "jenv"
 brew "nvm"
 brew "pipx"
 brew "kubernetes-cli"
+brew "gradle"
+brew "maven@3.2"
 
 cask "steam"
 cask "zoom"
