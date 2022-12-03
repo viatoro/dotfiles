@@ -15,6 +15,7 @@ brew "awscli"
 brew "kubectl"
 brew "jenv"
 brew "nvm"
+brew "pipx"
 
 cask "steam"
 cask "zoom"
@@ -24,15 +25,12 @@ cask "microsoft-teams"
 cask "tunnelblick"
 cask "google-chrome"
 cask "brave-browser"
-cask "intellij-idea"
+
 cask "sourcetree"
 cask "postman"
 cask "rancher"
 cask "discord"
 #cask "robo-3t"
-cask "visual-studio-code"
-cask "android-studio"
-cask "android-sdk"
 #cask "temurin8"
 #cask "temurin11"
 #cask "temurin17"
@@ -44,6 +42,13 @@ cask "superslicer"
 cask "sparrow"
 cask "tor-browser"
 cask "firefox"
+
+cask "intellij-idea"
+cask "intellij-idea-ce"
+cask "visual-studio-code"
+
+cask "android-studio"
+cask "android-sdk"
 
 mas "Slack", id: 803453959
 mas "LINE", id: 539883307

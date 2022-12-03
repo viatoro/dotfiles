@@ -60,7 +60,7 @@ battery_status() {
     exit 0
   fi
 
-  if [[ $(sysctl -n hw.model) == *"Book"* ]]
+  if [[ $(sysctl -n hw.model) == *"Book"* ]] || [[ $(sysctl -n hw.model) == *"Mac14,2"* ]]
   then
     $ZSH/bin/battery-status
   fi
