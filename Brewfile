@@ -1,6 +1,7 @@
 tap "homebrew/cask"
 tap "graalvm/tap"
 tap "homebrew/cask-versions"
+tap "warrensbox/tap"
 
 #brew "rbenv"
 #brew "swiftlint"
@@ -18,7 +19,8 @@ brew "nvm"
 brew "pipx"
 brew "kubernetes-cli"
 brew "gradle"
-brew "maven@3.2"
+brew "maven"
+
 
 cask "steam"
 cask "zoom"
@@ -53,6 +55,7 @@ cask "visual-studio-code"
 
 cask "android-studio"
 cask "android-sdk"
+cask "tfswitch"
 
 mas "Slack", id: 803453959
 mas "LINE", id: 539883307

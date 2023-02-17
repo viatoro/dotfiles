@@ -1,1 +1,1 @@
-export PATH="$PATH:$HOME/.rd/bin"
+#export PATH="$PATH:$HOME/.rd/bin"
