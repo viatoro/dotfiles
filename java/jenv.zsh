@@ -1,6 +1,6 @@
 
 # init according to man page
-if (( $+commands[rbenv] ))
+if (( $+commands[jenv] ))
 then
   eval "$(jenv init -)"
 fi
