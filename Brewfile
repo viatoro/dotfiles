@@ -20,6 +20,7 @@ brew "pipx"
 brew "kubernetes-cli"
 brew "gradle"
 brew "maven"
+brew "warrensbox/tap/tfswitch"
 
 
 cask "steam"
@@ -55,7 +56,6 @@ cask "visual-studio-code"
 
 cask "android-studio"
 cask "android-sdk"
-cask "tfswitch"
 
 #mas "Slack", id: 803453959
 #mas "LINE", id: 539883307
