@@ -25,7 +25,7 @@ brew "maven"
 cask "steam"
 cask "zoom"
 #cask "xquartz"
-cask "playonmac"
+#cask "playonmac"
 cask "microsoft-teams"
 cask "tunnelblick"
 cask "google-chrome"
@@ -33,8 +33,8 @@ cask "brave-browser"
 
 cask "sourcetree"
 cask "postman"
-cask "rancher"
-cask "discord"
+#cask "rancher"
+#cask "discord"
 #cask "robo-3t"
 #cask "temurin8"
 #cask "temurin11"
@@ -42,14 +42,14 @@ cask "discord"
 #cask "intel-haxm"
 cask "graalvm-ce-lts-java11"
 cask "graalvm-ce-lts-java8"
-cask "graalvm-ce-java17"
-cask "authy"
-cask "superslicer"
-cask "sparrow"
+cask "graalvm-community-jdk17"
+#cask "authy"
+#cask "superslicer"
+#cask "sparrow"
 cask "tor-browser"
 cask "firefox"
 
-cask "intellij-idea"
+#cask "intellij-idea"
 cask "intellij-idea-ce"
 cask "visual-studio-code"
 
@@ -57,6 +57,6 @@ cask "android-studio"
 cask "android-sdk"
 cask "tfswitch"
 
-mas "Slack", id: 803453959
-mas "LINE", id: 539883307
-mas "Xcode", id: 497799835
+#mas "Slack", id: 803453959
+#mas "LINE", id: 539883307
+#mas "Xcode", id: 497799835
