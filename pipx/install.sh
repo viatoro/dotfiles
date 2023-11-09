@@ -3,9 +3,11 @@
 
 set -e
 
-set -e
-if test $(which pipx)
+if test ! $(which awsume)
 then
-  pipx install awsume
-  pipx install aws-sso-credential-process
+  if test $(which pipx)
+  then
+    pipx install awsume
+    pipx install aws-sso-credential-process
+  fi
 fi
