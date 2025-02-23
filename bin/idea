@@ -1,3 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
-open -na "IntelliJ IDEA CE.app" --args "$@"
+# Check if IntelliJ IDEA Ultimate is installed
+if [ -d "/Applications/IntelliJ IDEA Ultimate.app" ]; then
+    # Open IntelliJ IDEA Ultimate
+    open -na "IntelliJ IDEA Ultimate.app" --args "$@"
+else
+    # If Ultimate is not installed, fall back to Community Edition
+    open -na "IntelliJ IDEA CE.app" --args "$@"
+fi

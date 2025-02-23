@@ -1,0 +1,4 @@
+#!/bin/sh
+export http_proxy="http://proxyinternet.krungsri.net:8080"
+export https_proxy="http://proxyinternet.krungsri.net:8080"
+export no_proxy="100B00565AF1D47480C12EFB6AC801FF.gr7.ap-southeast-1.eks.amazonaws.com"
